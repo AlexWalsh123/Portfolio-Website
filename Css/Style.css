@@ -1,0 +1,8 @@
+P{
+    color: green;
+}
+
+a{  /*makes links look normal*/
+    color: inherit;
+    text-decoration: inherit;
+}

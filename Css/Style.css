@@ -1,6 +1,7 @@
 
 html{
     background: white;
+    font-family: Georgia, serif;
 }
 
 P{
@@ -53,6 +54,10 @@ ul {
     padding: 0;
     min-height: 46px;
     background-color: #333;
+
+    display: flex;
+    justify-content: space-between;
+
 
   }
   

@@ -73,8 +73,12 @@ ul {
     text-decoration: none;
   }
 
-  li a:hover, .dropdown:hover .dropbutton {
+  li a:hover, .dropdown:hover .dropbutton a.active{
     background-color: #111;
+  }
+
+  a.active {
+    background-color: #000000;
   }
 
   li.dropdown{
@@ -101,6 +105,9 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
 
+  a.activated{
+    background-color: #d6d6d6;
+  }
 
  .dropdowncontent a:hover {
     background-color: #f1f1f1;

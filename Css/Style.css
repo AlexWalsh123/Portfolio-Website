@@ -8,6 +8,10 @@ P{
     color: black;
 }
 
+.clear{
+  all:none;
+}
+
 header{
     background: rgb(214, 214, 214);
 }
@@ -45,7 +49,7 @@ body{
     background-size: cover;
 }
 
-ul {
+.ul1 {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -65,7 +69,7 @@ ul {
     float: left;
   }
   
-  li a, .dropbutton {
+  .liA, .dropbutton {
     display: inline-block;
     color: white;
     text-align: center;
@@ -73,13 +77,10 @@ ul {
     text-decoration: none;
   }
 
-  li a:hover, .dropdown:hover .dropbutton a.active{
-    background-color: #111;
+  .liA:hover, .dropdown:hover, .dropdown.active,/*.dropbutton*/ .liA.active{
+    background-color: pink;
   }
 
-  a.active {
-    background-color: #000000;
-  }
 
   li.dropdown{
       display: inline-block;
@@ -117,3 +118,9 @@ ul {
     display: block;
  }
 
+ .contentsLi{
+    all: initial;
+    cursor: pointer;
+    float: left;
+    
+ }

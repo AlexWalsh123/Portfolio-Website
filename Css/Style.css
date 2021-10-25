@@ -1,6 +1,6 @@
 
 html{
-    background: white;
+    background: rgb(255, 255, 255);
     font-family: Georgia, serif;
 }
 
@@ -36,10 +36,11 @@ body{
 
 .Parralax{
     margin: 0%;
-    background: url("../Img/SpaceTest.jpg");
+    background: url("../Img/Soteria1.jpg");
     background-attachment: fixed;;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .Parralax1{
     margin: 0%;
@@ -47,6 +48,7 @@ body{
     background-attachment: fixed;;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 0px, 10px;
 }
 
 .ul1 {

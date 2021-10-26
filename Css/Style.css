@@ -18,6 +18,9 @@ header{
 
 footer{
     background: rgb(214, 214, 214);
+    text-align: center; 
+    padding: 2%; 
+    color: grey;
 }
 
 a{  /*makes links look normal*/
@@ -149,6 +152,53 @@ body{
 }
 
 .Section{
-  height: 1000px;
+  clear: both;
+  overflow: hidden;
 }
+
+
+/* gallery settings */
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
 

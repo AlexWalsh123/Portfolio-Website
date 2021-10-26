@@ -27,6 +27,7 @@ a{  /*makes links look normal*/
 
 body{
     margin: 0px;
+    background-color: rgb(244, 254, 255);
 }
 
 .boxed{
@@ -151,7 +152,3 @@ body{
   height: 1000px;
 }
 
-.dtA.lt {
-  display: list-item;
-  list-style-type: disc;
-  }

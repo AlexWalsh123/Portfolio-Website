@@ -147,8 +147,9 @@ body{
     
  }
 
- #P1, #P2, #P3 {
-  scroll-margin-top: 50px;
+ #P1,#P2,#P3 {
+  padding-top: 2%;
+  margin-top: -2%;
 }
 
 .Section{
